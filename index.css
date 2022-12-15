@@ -1,0 +1,24 @@
+.texts {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;          
+  }
+  
+.texts p {
+    color: black;          
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+  
+.texts p:hover {
+    background-color: grey
+}
+  
+.container:hover .texts {
+    display: block;
+}        
+ 
+.container:hover .btn {
+    background-color: grey;
+}
